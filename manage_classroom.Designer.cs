@@ -1,0 +1,715 @@
+﻿namespace My_Easy_Edu_V_1._0
+{
+    partial class manage_classroom
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.errorbox = new DevComponents.DotNetBar.LabelX();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.classroom2 = new System.Windows.Forms.ComboBox();
+            this.switchButton1 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.label12 = new System.Windows.Forms.Label();
+            this.classroom1 = new System.Windows.Forms.ComboBox();
+            this.buttonX19 = new DevComponents.DotNetBar.ButtonX();
+            this.label8 = new System.Windows.Forms.Label();
+            this.admission_no = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.totalclassroom = new System.Windows.Forms.Label();
+            this.buttonX18 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX17 = new DevComponents.DotNetBar.ButtonX();
+            this.classroom_name = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.label4 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.displayterm = new System.Windows.Forms.Label();
+            this.msg = new DevComponents.DotNetBar.LabelX();
+            this.buttonX16 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX15 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX8 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX7 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX6 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX5 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX4 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.logo = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.schoolname = new System.Windows.Forms.Label();
+            this.buttonX9 = new DevComponents.DotNetBar.ButtonX();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.errorbox);
+            this.groupBox1.Controls.Add(this.groupBox2);
+            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.totalclassroom);
+            this.groupBox1.Controls.Add(this.buttonX18);
+            this.groupBox1.Controls.Add(this.buttonX17);
+            this.groupBox1.Controls.Add(this.classroom_name);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.listBox1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(312, 239);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1029, 523);
+            this.groupBox1.TabIndex = 90;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // errorbox
+            // 
+            this.errorbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            // 
+            // 
+            // 
+            this.errorbox.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.errorbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorbox.ForeColor = System.Drawing.Color.Red;
+            this.errorbox.Location = new System.Drawing.Point(54, 140);
+            this.errorbox.Name = "errorbox";
+            this.errorbox.PaddingBottom = 10;
+            this.errorbox.PaddingLeft = 10;
+            this.errorbox.PaddingRight = 10;
+            this.errorbox.PaddingTop = 10;
+            this.errorbox.Size = new System.Drawing.Size(617, 41);
+            this.errorbox.Symbol = "";
+            this.errorbox.SymbolColor = System.Drawing.Color.Red;
+            this.errorbox.TabIndex = 99;
+            this.errorbox.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.errorbox.Visible = false;
+            this.errorbox.WordWrap = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.classroom2);
+            this.groupBox2.Controls.Add(this.switchButton1);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.classroom1);
+            this.groupBox2.Controls.Add(this.buttonX19);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.admission_no);
+            this.groupBox2.Location = new System.Drawing.Point(54, 175);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(617, 346);
+            this.groupBox2.TabIndex = 98;
+            this.groupBox2.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Bauhaus 93", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(76, 88);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(87, 36);
+            this.label6.TabIndex = 102;
+            this.label6.Text = "From";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Bauhaus 93", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label5.Location = new System.Drawing.Point(103, 222);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 36);
+            this.label5.TabIndex = 101;
+            this.label5.Text = "To";
+            // 
+            // classroom2
+            // 
+            this.classroom2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classroom2.FormattingEnabled = true;
+            this.classroom2.Location = new System.Drawing.Point(169, 222);
+            this.classroom2.Name = "classroom2";
+            this.classroom2.Size = new System.Drawing.Size(361, 33);
+            this.classroom2.TabIndex = 100;
+            // 
+            // switchButton1
+            // 
+            // 
+            // 
+            // 
+            this.switchButton1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchButton1.Location = new System.Drawing.Point(336, 22);
+            this.switchButton1.Name = "switchButton1";
+            this.switchButton1.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.switchButton1.OffText = "Promote Students";
+            this.switchButton1.OffTextColor = System.Drawing.Color.White;
+            this.switchButton1.OnBackColor = System.Drawing.Color.DodgerBlue;
+            this.switchButton1.OnText = "Promote Class";
+            this.switchButton1.OnTextColor = System.Drawing.Color.White;
+            this.switchButton1.Size = new System.Drawing.Size(272, 28);
+            this.switchButton1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton1.TabIndex = 99;
+            this.switchButton1.ValueChanged += new System.EventHandler(this.switchButton1_ValueChanged);
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label12.Location = new System.Drawing.Point(0, 163);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(617, 10);
+            this.label12.TabIndex = 69;
+            // 
+            // classroom1
+            // 
+            this.classroom1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classroom1.FormattingEnabled = true;
+            this.classroom1.Items.AddRange(new object[] {
+            "PRE-NUR",
+            "NUR",
+            "PRY",
+            "JSS",
+            "SSS",
+            "GRADE",
+            "FORM"});
+            this.classroom1.Location = new System.Drawing.Point(169, 92);
+            this.classroom1.Name = "classroom1";
+            this.classroom1.Size = new System.Drawing.Size(361, 33);
+            this.classroom1.TabIndex = 60;
+            this.classroom1.Visible = false;
+            // 
+            // buttonX19
+            // 
+            this.buttonX19.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX19.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonX19.Location = new System.Drawing.Point(234, 287);
+            this.buttonX19.Name = "buttonX19";
+            this.buttonX19.Size = new System.Drawing.Size(247, 30);
+            this.buttonX19.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX19.Symbol = "";
+            this.buttonX19.SymbolColor = System.Drawing.Color.Green;
+            this.buttonX19.SymbolSize = 15F;
+            this.buttonX19.TabIndex = 58;
+            this.buttonX19.Text = "Promote/demote";
+            this.buttonX19.Click += new System.EventHandler(this.buttonX19_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label8.Location = new System.Drawing.Point(16, 24);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(295, 20);
+            this.label8.TabIndex = 54;
+            this.label8.Text = "(Update Student Class Information)";
+            // 
+            // admission_no
+            // 
+            this.admission_no.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.admission_no.Border.Class = "TextBoxBorder";
+            this.admission_no.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.admission_no.Border.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admission_no.DisabledBackColor = System.Drawing.Color.White;
+            this.admission_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admission_no.ForeColor = System.Drawing.Color.Black;
+            this.admission_no.Location = new System.Drawing.Point(169, 88);
+            this.admission_no.Name = "admission_no";
+            this.admission_no.PreventEnterBeep = true;
+            this.admission_no.Size = new System.Drawing.Size(361, 39);
+            this.admission_no.TabIndex = 58;
+            this.admission_no.WatermarkText = "Admission Number";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dataGridView1.Location = new System.Drawing.Point(751, 81);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(269, 440);
+            this.dataGridView1.TabIndex = 97;
+            // 
+            // totalclassroom
+            // 
+            this.totalclassroom.AutoSize = true;
+            this.totalclassroom.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalclassroom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.totalclassroom.Location = new System.Drawing.Point(984, 35);
+            this.totalclassroom.Name = "totalclassroom";
+            this.totalclassroom.Size = new System.Drawing.Size(25, 25);
+            this.totalclassroom.TabIndex = 96;
+            this.totalclassroom.Text = "0";
+            // 
+            // buttonX18
+            // 
+            this.buttonX18.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.buttonX18.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX18.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX18.ImageTextSpacing = 5;
+            this.buttonX18.Location = new System.Drawing.Point(386, 76);
+            this.buttonX18.Name = "buttonX18";
+            this.buttonX18.Size = new System.Drawing.Size(176, 34);
+            this.buttonX18.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX18.Symbol = "";
+            this.buttonX18.SymbolColor = System.Drawing.Color.Red;
+            this.buttonX18.TabIndex = 95;
+            this.buttonX18.Text = "Remove Classroom";
+            this.buttonX18.Tooltip = "Add to classroom list";
+            this.buttonX18.Click += new System.EventHandler(this.buttonX18_Click);
+            // 
+            // buttonX17
+            // 
+            this.buttonX17.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX17.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.buttonX17.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX17.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX17.ImageTextSpacing = 5;
+            this.buttonX17.Location = new System.Drawing.Point(579, 76);
+            this.buttonX17.Name = "buttonX17";
+            this.buttonX17.Size = new System.Drawing.Size(154, 34);
+            this.buttonX17.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX17.Symbol = "";
+            this.buttonX17.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonX17.TabIndex = 94;
+            this.buttonX17.Text = "Add Classroom";
+            this.buttonX17.Tooltip = "Add to classroom list";
+            this.buttonX17.Click += new System.EventHandler(this.buttonX17_Click);
+            // 
+            // classroom_name
+            // 
+            this.classroom_name.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.classroom_name.Border.Class = "TextBoxBorder";
+            this.classroom_name.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.classroom_name.Border.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classroom_name.DisabledBackColor = System.Drawing.Color.White;
+            this.classroom_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classroom_name.ForeColor = System.Drawing.Color.Black;
+            this.classroom_name.Location = new System.Drawing.Point(42, 76);
+            this.classroom_name.Name = "classroom_name";
+            this.classroom_name.PreventEnterBeep = true;
+            this.classroom_name.Size = new System.Drawing.Size(326, 34);
+            this.classroom_name.TabIndex = 93;
+            this.classroom_name.WatermarkText = "Enter Classrooms Name           (e.g PRY 4 ) ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(756, 35);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(226, 23);
+            this.label4.TabIndex = 92;
+            this.label4.Text = "Available Classrooms :";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(747, 79);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(289, 446);
+            this.listBox1.TabIndex = 0;
+            // 
+            // displayterm
+            // 
+            this.displayterm.AutoSize = true;
+            this.displayterm.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayterm.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.displayterm.Location = new System.Drawing.Point(579, 81);
+            this.displayterm.Name = "displayterm";
+            this.displayterm.Size = new System.Drawing.Size(497, 33);
+            this.displayterm.TabIndex = 89;
+            this.displayterm.Text = "Manage Classrooms for all students";
+            // 
+            // msg
+            // 
+            this.msg.BackColor = System.Drawing.Color.MediumSeaGreen;
+            // 
+            // 
+            // 
+            this.msg.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.msg.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msg.ForeColor = System.Drawing.Color.White;
+            this.msg.Location = new System.Drawing.Point(290, 133);
+            this.msg.Name = "msg";
+            this.msg.PaddingLeft = 20;
+            this.msg.PaddingRight = 20;
+            this.msg.Size = new System.Drawing.Size(1030, 34);
+            this.msg.Symbol = "";
+            this.msg.TabIndex = 91;
+            this.msg.Text = "No term selected yet - please pick a term No term selected yet - please pick a te" +
+    "rm No term selected yet - please pick a term No term selected yet - please pick " +
+    "a term";
+            this.msg.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.msg.Visible = false;
+            this.msg.WordWrap = true;
+            // 
+            // buttonX16
+            // 
+            this.buttonX16.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX16.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX16.Location = new System.Drawing.Point(22, 2);
+            this.buttonX16.Name = "buttonX16";
+            this.buttonX16.Size = new System.Drawing.Size(53, 51);
+            this.buttonX16.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX16.Symbol = "";
+            this.buttonX16.SymbolColor = System.Drawing.Color.Green;
+            this.buttonX16.TabIndex = 88;
+            this.buttonX16.Tooltip = "Go Back Home";
+            this.buttonX16.Click += new System.EventHandler(this.buttonX16_Click);
+            // 
+            // buttonX15
+            // 
+            this.buttonX15.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX15.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX15.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX15.ImageTextSpacing = 5;
+            this.buttonX15.Location = new System.Drawing.Point(9, 517);
+            this.buttonX15.Name = "buttonX15";
+            this.buttonX15.Size = new System.Drawing.Size(242, 34);
+            this.buttonX15.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX15.Symbol = "";
+            this.buttonX15.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX15.TabIndex = 87;
+            this.buttonX15.Text = "Back-Up and Restore";
+            this.buttonX15.Tooltip = "Back-up and restore application data";
+            this.buttonX15.Click += new System.EventHandler(this.buttonX15_Click);
+            // 
+            // buttonX8
+            // 
+            this.buttonX8.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX8.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX8.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX8.ImageTextSpacing = 5;
+            this.buttonX8.Location = new System.Drawing.Point(8, 401);
+            this.buttonX8.Name = "buttonX8";
+            this.buttonX8.Size = new System.Drawing.Size(242, 34);
+            this.buttonX8.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX8.Symbol = "";
+            this.buttonX8.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX8.TabIndex = 80;
+            this.buttonX8.Text = "Print Result";
+            this.buttonX8.Tooltip = "Print result directly through printer";
+            this.buttonX8.Click += new System.EventHandler(this.buttonX8_Click);
+            // 
+            // buttonX7
+            // 
+            this.buttonX7.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX7.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX7.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX7.ImageTextSpacing = 5;
+            this.buttonX7.Location = new System.Drawing.Point(7, 343);
+            this.buttonX7.Name = "buttonX7";
+            this.buttonX7.Size = new System.Drawing.Size(242, 34);
+            this.buttonX7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX7.Symbol = "";
+            this.buttonX7.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX7.TabIndex = 79;
+            this.buttonX7.Text = "View Performance";
+            this.buttonX7.Tooltip = "View student\'s  performance record";
+            this.buttonX7.Click += new System.EventHandler(this.buttonX7_Click);
+            // 
+            // buttonX6
+            // 
+            this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX6.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX6.ImageTextSpacing = 5;
+            this.buttonX6.Location = new System.Drawing.Point(7, 286);
+            this.buttonX6.Name = "buttonX6";
+            this.buttonX6.Size = new System.Drawing.Size(242, 34);
+            this.buttonX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX6.Symbol = "";
+            this.buttonX6.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX6.TabIndex = 78;
+            this.buttonX6.Text = "Continous Assessments";
+            this.buttonX6.Tooltip = "Compute continous assessments for students";
+            this.buttonX6.Click += new System.EventHandler(this.buttonX6_Click);
+            // 
+            // buttonX5
+            // 
+            this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX5.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX5.ImageTextSpacing = 5;
+            this.buttonX5.Location = new System.Drawing.Point(7, 229);
+            this.buttonX5.Name = "buttonX5";
+            this.buttonX5.Size = new System.Drawing.Size(242, 34);
+            this.buttonX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX5.Symbol = "";
+            this.buttonX5.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX5.TabIndex = 77;
+            this.buttonX5.Text = "Manage Subject";
+            this.buttonX5.Tooltip = "Create and manage subjects offered in school";
+            this.buttonX5.Click += new System.EventHandler(this.buttonX5_Click);
+            // 
+            // buttonX4
+            // 
+            this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX4.ImageTextSpacing = 5;
+            this.buttonX4.Location = new System.Drawing.Point(6, 119);
+            this.buttonX4.Name = "buttonX4";
+            this.buttonX4.Size = new System.Drawing.Size(242, 34);
+            this.buttonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX4.Symbol = "59471";
+            this.buttonX4.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX4.SymbolSet = DevComponents.DotNetBar.eSymbolSet.Material;
+            this.buttonX4.TabIndex = 76;
+            this.buttonX4.Text = "Manage Classroom";
+            this.buttonX4.Tooltip = "Create and manage classroom";
+            this.buttonX4.Click += new System.EventHandler(this.buttonX4_Click);
+            // 
+            // buttonX3
+            // 
+            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX3.ImageTextSpacing = 5;
+            this.buttonX3.Location = new System.Drawing.Point(7, 172);
+            this.buttonX3.Name = "buttonX3";
+            this.buttonX3.Size = new System.Drawing.Size(242, 34);
+            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX3.Symbol = "";
+            this.buttonX3.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX3.TabIndex = 75;
+            this.buttonX3.Text = "Manage Student\'s Record";
+            this.buttonX3.Tooltip = "Create and manage student\'s bio record";
+            this.buttonX3.Click += new System.EventHandler(this.buttonX3_Click);
+            // 
+            // buttonX2
+            // 
+            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX2.ImageTextSpacing = 5;
+            this.buttonX2.Location = new System.Drawing.Point(7, 65);
+            this.buttonX2.Name = "buttonX2";
+            this.buttonX2.Size = new System.Drawing.Size(242, 34);
+            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX2.Symbol = "";
+            this.buttonX2.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX2.TabIndex = 74;
+            this.buttonX2.Text = "Manage Session";
+            this.buttonX2.Tooltip = "Create and manage session for term";
+            this.buttonX2.Click += new System.EventHandler(this.buttonX2_Click);
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX1.Location = new System.Drawing.Point(1189, 13);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(43, 37);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.Symbol = "";
+            this.buttonX1.SymbolColor = System.Drawing.Color.Red;
+            this.buttonX1.TabIndex = 73;
+            this.buttonX1.Tooltip = "Logout";
+            this.buttonX1.Click += new System.EventHandler(this.buttonX1_Click);
+            // 
+            // logo
+            // 
+            this.logo.Image = global::My_Easy_Edu_V_1._0.Properties.Resources.profile;
+            this.logo.Location = new System.Drawing.Point(85, 2);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(78, 51);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logo.TabIndex = 71;
+            this.logo.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label2.Location = new System.Drawing.Point(-2, 55);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(260, 734);
+            this.label2.TabIndex = 70;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label1.Location = new System.Drawing.Point(-2, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1418, 10);
+            this.label1.TabIndex = 69;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Maroon;
+            this.button1.Location = new System.Drawing.Point(1248, 14);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(93, 36);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "Exit App";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // schoolname
+            // 
+            this.schoolname.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.schoolname.ForeColor = System.Drawing.Color.Maroon;
+            this.schoolname.Location = new System.Drawing.Point(174, 2);
+            this.schoolname.Name = "schoolname";
+            this.schoolname.Size = new System.Drawing.Size(1010, 50);
+            this.schoolname.TabIndex = 147;
+            this.schoolname.Text = "X";
+            this.schoolname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonX9
+            // 
+            this.buttonX9.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX9.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
+            this.buttonX9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonX9.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold);
+            this.buttonX9.ImageTextSpacing = 5;
+            this.buttonX9.Location = new System.Drawing.Point(9, 460);
+            this.buttonX9.Name = "buttonX9";
+            this.buttonX9.Size = new System.Drawing.Size(242, 34);
+            this.buttonX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX9.Symbol = "";
+            this.buttonX9.SymbolColor = System.Drawing.Color.Navy;
+            this.buttonX9.TabIndex = 167;
+            this.buttonX9.Text = "Cummulative Data";
+            this.buttonX9.Tooltip = "View student\'s  performance record";
+            // 
+            // manage_classroom
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1380, 788);
+            this.Controls.Add(this.buttonX9);
+            this.Controls.Add(this.schoolname);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.displayterm);
+            this.Controls.Add(this.msg);
+            this.Controls.Add(this.buttonX16);
+            this.Controls.Add(this.buttonX15);
+            this.Controls.Add(this.buttonX8);
+            this.Controls.Add(this.buttonX7);
+            this.Controls.Add(this.buttonX6);
+            this.Controls.Add(this.buttonX5);
+            this.Controls.Add(this.buttonX4);
+            this.Controls.Add(this.buttonX3);
+            this.Controls.Add(this.buttonX2);
+            this.Controls.Add(this.buttonX1);
+            this.Controls.Add(this.logo);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "manage_classroom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "manage_classroom";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.manage_classroom_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label displayterm;
+        private DevComponents.DotNetBar.LabelX msg;
+        private DevComponents.DotNetBar.ButtonX buttonX16;
+        private DevComponents.DotNetBar.ButtonX buttonX15;
+        private DevComponents.DotNetBar.ButtonX buttonX8;
+        private DevComponents.DotNetBar.ButtonX buttonX7;
+        private DevComponents.DotNetBar.ButtonX buttonX6;
+        private DevComponents.DotNetBar.ButtonX buttonX5;
+        private DevComponents.DotNetBar.ButtonX buttonX4;
+        private DevComponents.DotNetBar.ButtonX buttonX3;
+        private DevComponents.DotNetBar.ButtonX buttonX2;
+        private DevComponents.DotNetBar.ButtonX buttonX1;
+        private System.Windows.Forms.PictureBox logo;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label4;
+        private DevComponents.DotNetBar.Controls.TextBoxX classroom_name;
+        private DevComponents.DotNetBar.ButtonX buttonX17;
+        private DevComponents.DotNetBar.ButtonX buttonX18;
+        private System.Windows.Forms.Label totalclassroom;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton1;
+        private System.Windows.Forms.Label label12;
+        private DevComponents.DotNetBar.ButtonX buttonX19;
+        private DevComponents.DotNetBar.Controls.TextBoxX admission_no;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox classroom1;
+        private System.Windows.Forms.ComboBox classroom2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private DevComponents.DotNetBar.LabelX errorbox;
+        private System.Windows.Forms.Label schoolname;
+        private DevComponents.DotNetBar.ButtonX buttonX9;
+    }
+}
